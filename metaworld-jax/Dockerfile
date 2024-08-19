@@ -1,4 +1,4 @@
-FROM python:3.10-slim-buster
+FROM python:3.12.5-slim
 LABEL maintainer="me@evangelos.ai"
 
 RUN apt-get update && apt install -y --no-install-recommends git python3-pip libglfw3 libglfw3-dev

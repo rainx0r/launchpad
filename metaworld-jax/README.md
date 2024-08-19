@@ -4,7 +4,7 @@ A base Dockerfile containing all the required dependencies for running my Metawo
 
 Includes:
 
-- Python@3.10
+- Python@3.12
 - CUDA & cuDNN for GPU acceleration.
 - (TEMPORARY) Custom versions of Metaworld and Multi-task Cleanrl.
 - JAX, Flax and Orbax.
