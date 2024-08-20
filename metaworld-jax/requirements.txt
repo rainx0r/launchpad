@@ -1,14 +1,4 @@
-# Cuda
-nvidia-cublas-cu12~=12.2.0
-nvidia-cuda-cupti-cu12~=12.2.0
-nvidia-cuda-nvcc-cu12~=12.2.0
-nvidia-cuda-runtime-cu12~=12.2.0
-nvidia-cusparse-cu12~=12.2.0
-nvidia-nvjitlink-cu12~=12.2.0
-
 # Jax
-jax[cuda12]==0.4.31
-flax==0.8.5
 distrax==0.1.5
 
 # Metaworld
@@ -21,5 +11,5 @@ torch==2.4.0
 # Logging
 wandb==0.17.6
 tensorboard==2.17.1
-orbax-checkpoint @ git+https://github.com/google/orbax/@2ce2fb27f9786442b08ba14c8767c460dd6e8a0a#subdirectory=checkpoint
+orbax-checkpoint==0.6.0
 
