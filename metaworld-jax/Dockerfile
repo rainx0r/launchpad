@@ -6,7 +6,7 @@ RUN apt-get update && apt install -y --no-install-recommends git python3-pip lib
 WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir --upgrade -r requirements.txt
+    pip install --no-cache-dir --upgrade --pre -r requirements.txt
 
 ENTRYPOINT ["python"]
 

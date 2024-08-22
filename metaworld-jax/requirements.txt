@@ -1,5 +1,7 @@
 # Jax
-jax[cuda12]==0.4.31
+--find-links https://storage.googleapis.com/jax-releases/jax_nightly_releases.html
+jax[cuda12]==0.4.32.dev20240822
+
 flax==0.8.5
 distrax==0.1.5
 
