@@ -6,7 +6,7 @@ flax==0.8.5
 distrax==0.1.5
 
 # Metaworld
-metaworld @ git+https://github.com/rainx0r/Metaworld.git@f131964
+metaworld @ git+https://github.com/rainx0r/Metaworld.git@bdfae43
 
 # Pytorch CPU for logging
 --extra-index-url https://download.pytorch.org/whl/cpu
