@@ -1,18 +1,20 @@
 # Jax
---find-links https://storage.googleapis.com/jax-releases/jax_nightly_releases.html
-jax[cuda12]==0.4.32.dev20240822
+# --find-links https://storage.googleapis.com/jax-releases/jax_nightly_releases.html
+jax[cuda12]==0.4.34
+jaxtyping==0.2.34
 
-flax==0.8.5
+numpy>=2.1.2
+flax>=0.9.0
 distrax==0.1.5
 
 # Metaworld
-metaworld @ git+https://github.com/rainx0r/Metaworld.git@bdfae43
+metaworld @ git+https://github.com/reginald-mclean/Metaworld@1fc9c76
 
 # Pytorch CPU for logging
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.4.0
 
 # Logging
-wandb==0.17.6
-tensorboard==2.17.1
-orbax-checkpoint==0.6.0
+wandb==0.18.5
+orbax-checkpoint==0.7.0
+tyro==0.8.11
