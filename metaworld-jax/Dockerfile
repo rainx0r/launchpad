@@ -1,12 +1,12 @@
 FROM python:3.12.5-slim
 LABEL maintainer="me@rainx0r.dev"
 
-RUN apt-get update && apt install -y --no-install-recommends git python3-pip libglfw3 libglfw3-dev
+RUN apt-get update && apt install -y --no-install-recommends git libglfw3 libglfw3-dev
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 WORKDIR /usr/src/app
 COPY requirements.txt ./
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir --upgrade --pre -r requirements.txt
+RUN uv pip install --no-cache-dir --upgrade --pre --system -r requirements.txt
 
 ENTRYPOINT ["python"]
 

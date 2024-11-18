@@ -8,13 +8,12 @@ flax>=0.9.0
 distrax==0.1.5
 
 # Metaworld
-metaworld @ git+https://github.com/reginald-mclean/Metaworld@1fc9c76
-
-# Pytorch CPU for logging
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.4.0
+metaworld @ git+https://github.com/reginald-mclean/Metaworld@release
 
 # Logging
 wandb==0.18.5
 orbax-checkpoint==0.7.0
 tyro==0.8.11
+
+# Algorithms
+mtrl @ git+https://github.com/rainx0r/mtrl@f4b17b9
