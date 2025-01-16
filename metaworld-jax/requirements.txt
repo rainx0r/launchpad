@@ -16,4 +16,4 @@ orbax-checkpoint==0.7.0
 tyro==0.8.11
 
 # Algorithms
-mtrl @ git+https://github.com/rainx0r/mtrl@526eec3
+mtrl @ git+https://github.com/rainx0r/mtrl@de748c8
