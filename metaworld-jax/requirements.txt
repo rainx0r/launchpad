@@ -1,11 +1,11 @@
 # Jax
 # --find-links https://storage.googleapis.com/jax-releases/jax_nightly_releases.html
-jax[cuda12]==0.4.34
-jaxtyping==0.2.34
+jax[cuda12]>=0.5.0
+jaxtyping>=0.2.34
 
 numpy>=2.1.2
 flax>=0.9.0
-distrax==0.1.5
+distrax>=0.1.5
 
 # Metaworld
 metaworld @ git+https://github.com/reginald-mclean/Metaworld@release
@@ -16,5 +16,5 @@ orbax-checkpoint==0.7.0
 tyro==0.8.11
 
 # Algorithms
-mtrl @ git+https://github.com/rainx0r/mtrl@e3d31f8
+mtrl[cuda12] @ git+https://github.com/rainx0r/mtrl@d620b5d
 
