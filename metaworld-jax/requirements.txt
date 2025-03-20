@@ -8,7 +8,7 @@ flax>=0.9.0
 distrax==0.1.5
 
 # Metaworld
-metaworld @ git+https://github.com/rainx0r/Metaworld@speedup2
+metaworld @ git+https://github.com/reginald-mclean/Metaworld@release
 
 # Logging
 wandb==0.18.5
@@ -16,4 +16,5 @@ orbax-checkpoint==0.7.0
 tyro==0.8.11
 
 # Algorithms
-mtrl @ git+https://github.com/rainx0r/mtrl@e98ac9b2c93cc17f01d465bc90da51e5b1288572
+mtrl @ git+https://github.com/rainx0r/mtrl@e3d31f8
+
