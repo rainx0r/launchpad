@@ -1,0 +1,4 @@
+# Metaworld
+metaworld @ git+https://github.com/reginald-mclean/Metaworld@release
+# Algorithms
+metaworld_algorithms[cuda12] @ git+https://github.com/rainx0r/metaworld-algorithms@b9b5446
